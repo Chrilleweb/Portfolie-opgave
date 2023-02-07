@@ -18,7 +18,20 @@ header {
     margin-top: 100px;
     position: absolute;
     top: -70px;
-    left: 35px;
+    left: 5%;
+}
+
+#venstre-billede{
+    width: 150px;
+    height: 115px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    top: -70px;
+    left: 81%;
+    transform: scale(-1, 1);
 }
 
 #h2-portfolio{
@@ -52,7 +65,7 @@ nav a {
 }
 
 #right-intro{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 #left-intro{
