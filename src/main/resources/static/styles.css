@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLC5W9oaQb9YC0N8dp-LgTkBk7rlzA81V_w&usqp=CAU");
+    background-image: url("https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?b=1&s=170667a&w=0&k=20&c=na3ACFWNhvnnhl4r5NuC7J4MnLfzz_kMVSsL7ropwJM=");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.9;
 }
 
@@ -12,8 +16,8 @@ header {
 }
 
 .header img{
-    width: 150px;
-    height: 115px;
+    width: 120px;
+    height: 100px;
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -24,15 +28,15 @@ header {
 }
 
 #venstre-billede{
-    width: 150px;
-    height: 115px;
+    width: 120px;
+    height: 100px;
     margin-left: 5px;
     display: flex;
     align-items: center;
     margin-top: 100px;
     position: absolute;
     top: -70px;
-    left: 81%;
+    left: 84%;
     transform: scale(-1, 1);
 }
 
