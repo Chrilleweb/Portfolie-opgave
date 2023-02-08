@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLC5W9oaQb9YC0N8dp-LgTkBk7rlzA81V_w&usqp=CAU");
+    opacity: 0.9;
 }
 
 header {
     background-color: lightgray;
+    border-radius: 30px;
     text-align: center;
     padding: 20px;
 }
@@ -61,7 +63,7 @@ nav a {
 }
 
 .klik:hover{
-    color: blue;
+    color: #5BC0F8;
 }
 
 #right-intro{
@@ -78,8 +80,20 @@ main {
 
 section {
     background-color: lightgray;
+    border-radius: 30px;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.fa{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.fa:hover{
+    color: #5BC0F8;
 }
 
 footer {
@@ -87,4 +101,5 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    border-radius: 30px;
 }
